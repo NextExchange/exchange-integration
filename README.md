@@ -10,7 +10,7 @@ The NEXT coin is the native coin, like BTC or ETH. NEXT is highly decentralized 
 | --- | --- |
 | Algorithm | SHA256 (X11) |
 | Consensus | Proof-of-Work / Proof-of-Stake combined |
-| Maximum Supply | 30,000,000 |
+| Maximum Supply | 30,300,000 |
 | Block Time | ~30 seconds |
 | Transactions Per Second | over 10K+ |
 | Lightning Network | Yes |
