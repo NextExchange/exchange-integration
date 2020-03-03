@@ -1,4 +1,3 @@
-##
 # NEXT INTEGRATION GUIDE
 
 NEXT developed the NEXT.chain and combined the best blockchain technologies with a focus on speed, scalability and security. We took take the Bitcoin Core code as a basis, placed Masternodes on it like Dash and implemented assets and smart contracts like Ethereum their ERC20.
