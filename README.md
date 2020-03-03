@@ -25,10 +25,10 @@ The NEXT coin is the native coin, like BTC or ETH. NEXT is highly decentralized 
 
 NEXT uses the following ports:
 
-|RPC Port:    |         7077|
-|P2P Port:    |         7078|
-|Testnet RPC: |        17077|
-|Testnet P2P: |        17078|
+| RPC Port:    |         7077 |
+| P2P Port:    |         7078 |
+| Testnet RPC: |        17077 |
+| Testnet P2P: |        17078 |
 
 Both are TCP. While you do not need to have them publicly exposed / forwarded, doing-so does not create any security risk and allows your node to further contribute to the security of the network by being discoverable by other nodes.
 
@@ -49,11 +49,17 @@ The NEXT node directly connects to the NEXT.chain and will download every block 
 
 # ~/.next/nextcoin.conf
 `server=1
+
 listen=1
+
 daemon=1
+
 txindex=1
+
 rpcallowip=127.0.0.1
+
 maxconnections=300
+
 addnode=seed.next.2srv.io`
 
 ### What are the hardware requirements to run a single node?
