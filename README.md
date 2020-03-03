@@ -13,22 +13,22 @@ The NEXT coin is the native coin, like BTC or ETH. NEXT is highly decentralized 
 | Consensus | Proof-of-Work / Proof-of-Stake combined |
 | Maximum Supply | 30,000,000 |
 | Block Time | ~30 seconds |
-| Transactions Per Second | \&gt; 10K+ |
+| Transactions Per Second | over 10K+ |
 | Lightning Network | Yes |
 | Instant Transactions | Yes |
+| Private Transactions | Yes |
 | Atomic Swap | Yes |
-| IEO | TBA |
-
+| Blockchain bridge | Yes |
 
 
 ### What are the standard ports for integrating NEXT?
 
 NEXT uses the following ports:
 
-RPC Port:             7077
-P2P Port:             7078
-Testnet RPC:         17077
-Testnet P2P:         17078
+|RPC Port:    |         7077|
+|P2P Port:    |         7078|
+|Testnet RPC: |        17077|
+|Testnet P2P: |        17078|
 
 Both are TCP. While you do not need to have them publicly exposed / forwarded, doing-so does not create any security risk and allows your node to further contribute to the security of the network by being discoverable by other nodes.
 
@@ -48,13 +48,13 @@ It genuinely depends on the capacity of the server, and the optimization of the 
 The NEXT node directly connects to the NEXT.chain and will download every block straight away, addthe following to ~/.next/nextcoin.conf:
 
 # ~/.next/nextcoin.conf
-server=1
+`server=1
 listen=1
 daemon=1
 txindex=1
 rpcallowip=127.0.0.1
 maxconnections=300
-addnode=seed.next.2srv.io
+addnode=seed.next.2srv.io`
 
 ### What are the hardware requirements to run a single node?
 
