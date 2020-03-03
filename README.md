@@ -25,10 +25,8 @@ The NEXT coin is the native coin, like BTC or ETH. NEXT is highly decentralized 
 
 NEXT uses the following ports:
 
-
+|   |  |
 | --- | --- |
-| Algorithm | SHA256 (X11) |
-| Consensus | Proof-of-Work / Proof-of-Stake combined |
 | RPC Port:    |         7077 |
 | P2P Port:    |         7078 |
 | Testnet RPC: |        17077 |
