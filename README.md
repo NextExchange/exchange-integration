@@ -35,7 +35,7 @@ Both are TCP. While you do not need to have them publicly exposed / forwarded, d
 
 ### Do you have any recommendations for integrating your wallet?
 
-We recommend a minimum of 6 confirmations for deposits / withdrawals (_which takes_ approx. 90 seconds). Notifications usually occur almost real-time for transactions, with blocks being _verified_ every 30 seconds.
+We recommend a minimum of 6 confirmations for deposits / withdrawals (_which takes_ approx. 90 seconds). Notifications usually occur almost real-time for transactions, with blocks being _verified_ every 60 seconds.
 
 If possible, use either Bech32 or SegWit addresses, and batch-process transactions.
 
