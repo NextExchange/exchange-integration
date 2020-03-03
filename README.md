@@ -50,7 +50,7 @@ It genuinely depends on the capacity of the server, and the optimization of the 
 The NEXT node directly connects to the NEXT.chain and will download every block straight away, addthe following to ~/.next/nextcoin.conf:
 
 # ~/.next/nextcoin.conf
-`
+```
 server=1
 listen=1
 daemon=1
@@ -58,7 +58,7 @@ txindex=1
 rpcallowip=127.0.0.1
 maxconnections=300
 addnode=seed.next.2srv.io
-`
+```
 
 ### What are the hardware requirements to run a single node?
 
